@@ -7,5 +7,6 @@ test('@smaoke-Login and Logout Test',async ({ page }) => {
     let obj = new general(page);
     await obj.openapplication();
     await obj.login();
-    await obj.logout();                                                                           
+    await obj.logout(); 
+    console.log("test is completed");
 });
